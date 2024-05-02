@@ -4,4 +4,45 @@
   margin: 0;
 }
 
-/* Start coding here */
+:root {
+  --branding-color: #ff7f50;
+  --secondary-color: cornsilk;
+  --highlight-color: #d2691e;
+  --muted-color: #a9a9a9;
+}
+
+:root {
+  --lv1-margin: 1px;
+  --lv2-margin: 5px;
+  --lv3-margin: 10px;
+  --lv4-margin: 15px;
+  --lv5-margin: 20px;
+}
+
+:root {
+  --lv1-padding: 1px;
+  --lv2-padding: 5px;
+  --lv3-padding: 10px;
+  --lv4-padding: 15px;
+  --lv5-padding: 20px;
+}
+
+:root {
+  --s-fontsize: 12px;
+  --m-fontsize: 16px;
+  --l-fontsize: 20px;
+  --xl-fontsize: 30px;
+  --xxl-fontsize: 50px;
+  --xxxl-fontsize: 100px;
+}
+
+.introduction {
+  background-color: var(--secondary-color);
+  padding: var(--lv5-padding);
+}
+
+.introduction h1 {
+  color: var(--branding-color);
+  font-size: var(--xxxl-fontsize);
+}
+
